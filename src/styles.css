@@ -1,0 +1,14 @@
+body {
+  background-color: #dfdcda;
+}
+/* trbl */
+
+.language {
+  text-decoration: none;
+}
+
+.name-title {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
