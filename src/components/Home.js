@@ -15,7 +15,7 @@ export default function Home() {
     <Router>
       <Container>
         <Link className="name-title" to="/">
-          Helloo, {user.displayName}
+          Hello, {user.displayName}
         </Link>
         <MenuItemContainer>
           {/* <Link to="/see-your-name">See Your Name</Link> */}

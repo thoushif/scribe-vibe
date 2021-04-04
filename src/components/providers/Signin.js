@@ -5,11 +5,11 @@ const Signin = () => {
   return (
     <Container>
       <SignIn>
-        <p>Sign in to the application</p>
+        <p>Sign in to scribe-vibe</p>
         <input
           type="submit"
           onClick={signInWithGoogle}
-          value="Sign In with google"
+          value="Sign In with Google"
         />
       </SignIn>
     </Container>
@@ -21,14 +21,14 @@ export default Signin;
 const Container = styled.div`
   background: transparent;
   border-radius: 3px;
-  border: 2px solid palevioletred;
+  border: 2px solid lightgreen;
   margin: 50px;
   display: flex;
   justify-content: center;
 `;
 
 const SignIn = styled.div`
-  color: palevioletred;
+  color: green;
   margin: 50px;
   padding: 0.25em 1em;
   align-self: center;
